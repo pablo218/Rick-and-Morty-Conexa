@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+}
+
+.characterSection {
+    display: flex;
+    flex-wrap: wrap;
+    height: 45vh;
+    justify-content: center;
+    overflow-y: scroll;
+   
+    &::-webkit-scrollbar{
+        width: 0;
+        background: linear-gradient(180deg, #1667D9 -5.34%, #F279F2 106.58%);
+        width: 2px;
+    }
+}
+
+.header {
+    background: linear-gradient(102.47deg, #1667D9 -5.34%, #F279F2 106.58%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin: 0;
+    color: white;
+    padding: 10px;
+}
+
+.chevronContainer {
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+}
+
+.leftChevron {
+    transform: rotate(-180deg);
+}

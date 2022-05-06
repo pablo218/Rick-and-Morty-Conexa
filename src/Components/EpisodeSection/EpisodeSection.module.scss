@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+}
+
+.section {
+    height: 35vh;
+    overflow-y: scroll;
+    width: 100%;
+
+    &::-webkit-scrollbar{
+        background: linear-gradient(180deg, #1667D9 -5.34%, #F279F2 106.58%);
+        width: 2px;
+    }
+}
+
+.header {
+    background: linear-gradient(102.47deg, #1667D9 -5.34%, #F279F2 106.58%);
+    border-bottom: 1px solid gray;
+    color: white;
+    padding: 10px;
+    height: 40px;
+    margin: 0;
+    width: 100%;
+}
+
+/* .list {
+  margin-top: 60px;
+} */
